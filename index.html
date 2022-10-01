@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+</head>
+<body class="body">
+    <header>
+        <div class="row">
+            <div class="col-md-12 p-0">
+                <div class="nav">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+                        <h1 class="nav_title">Mini Project</h1>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                          <ul class="navbar-nav ms-auto ">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#1st"><span class="navbar_item">Discription</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#1st"><span class="navbar_item">Diadram</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#2nd"><span class="navbar_item">Components</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link " href="#2nd"><span class="navbar_item">Working</span></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section1" id="1st">
+        <h1 class="h1">Automatic Night Lamp</h1>
+        <div class="row">
+            <div class="col-md-6 p-0">
+                <div class="discription">
+                    <div class="sub">
+                        <div class="discription_content">
+                            <h3 class="h3">Discription</h3>
+                            <div class="content">
+                                <p style="text-align: justify;">Automatic light control system is a simple and powerful concept, which
+                                    uses transistor as a switch to switch ON and OFF the light automatically. By
+                                    using this system manual works are removed. It automatically switches ON light
+                                    when the sunlight goes below the visible region of our eyes. It automatically
+                                    switches OFF light under illumination by sunlight. This is done by a sensor called
+                                    Light Dependant Resistor (LDR) which senses the light actually like our eyes.
+                                    By using this system energy consumption reduced because now a-days the
+                                    manually operated lights are not switched off properly even the sunlight comes
+                                    and also not switched on earlier before sunset. In sunny and rainy days, ON time
+                                    and OFF time differ significant which is one of the major disadvantage of using
+                                    timer circuit or manual operation switch.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+            </div>
+            <div class="col-md-6 p-0">
+                <div class="discription">
+                    <h2 class="h2">Circuitdiagram</h2>
+                    <div class="crkt_img">
+                        <div class="ckt_img">
+                            <img style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" src="assets/images/ckt.png" alt="">
+                        </div>
+                       
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        
+    </section id="2nd">
+    <section class="section2" id="2nd">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="discription">
+                    <div class="sub">
+                        <div class="components">
+                            <h3 class="h2">Circuit Components</h3>
+                            <ul class="ul">
+                                <li>9V Battery</li>
+                                <li>Breadboard</li>
+                                <li>Transistor BC547</li>
+                                <li>Resistor 100 kΩ</li>
+                                <li>Resistor 470Ω</li>
+                                <li>Light Dependent Resistor(LDR)</li>
+                                <li>Light-Emitting Diode (LED)</li>
+                                <li>Connecting wires</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div style="justify-content: center; align-items: center;" class="col-md-6">
+                <div class="discription">
+                    <div style="padding-top: 2%;" class="sub">
+                        <div  class="components">
+                            <h3 style="padding: 0.2em;" class="h3">Discription</h3>
+                            <div class="content">
+                                <p style="text-align: justify;">The photoresistor and the 100 k resistor make up a voltage divider. When
+                                    there is a lot of light, the photoresistor will have low resistance, which means 
+                                    thevoltage divider gives a low output voltage. So the transistor is off and cuts 
+                                    off the current to the LED. Which means no light.When it's dark, the photoresistor
+                                    will have high resistance. That means thevoltage divider gives a high output
+                                    voltage which turns on the transistor. Thatmeans the LED is also on and will light 
+                                    up.When it's light and the photoresistor value is low, the output from the voltage
+                                    divider is around 0.5V, which is not enough to turn on the transistor. When it's
+                                    dark and the photoresistor value is high, the output from an unconnected voltage
+                                    divider would be around 4.5V.But since the output of the voltage divider is
+                                    connected on the base of the transistor, the voltage will be limited by the forward
+                                    voltage of the base-emitter connection (around 0.7V).</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="section3">
+        <h2 >Physical Diagram</h2>
+        <div class="row">
+            <div class="col-md-6 ">
+                <div class="discription">
+                    
+                    <div class="crkt_img">
+                        <div class="ckt_img">
+                            <img style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; padding: 4em;" src="assets/images/img1.png" alt="">
+                            
+                        </div>
+                        
+                       
+                    </div>
+                   
+                </div>
+
+
+        </div>
+        <div class="col-md-6 ">
+            <div class="discription">
+                
+                <div class="crkt_img">
+                    <div class="ckt_img">
+                        <img style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; padding: 4em;" src="assets/images/img2.png" alt="">
+                        
+                    </div>
+                    
+                   
+                </div>
+               
+            </div>
+
+
+    </div>
+
+    </section class="section4">
+    <footer>
+        <h6>©PPMNiyas</h6>
+    </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+</body>
+</html>
